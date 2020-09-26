@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     install_requires=['pygments>=2.2'],
     entry_points='''[pygments.styles]
-                    algforopt=pygments_style_algfordm:AlgForDMStyle
+                    algfordm=pygments_style_algfordm:AlgForDMStyle
 					''',
 
     classifiers=[
