@@ -35,9 +35,9 @@ class AlgForDMStyle(Style):
 
 
         Name.Builtin:              "#0072B2",
-        Name.Function:             "#0000FF",
+        Name.Function:             "#56B4E9",
         Name.Class:                "bold #56B4E9",
-        Name.Namespace:            "bold #0000FF",
+        Name.Namespace:            "bold #56B4E9",
         Name.Exception:            "bold #D2413A",
         Name.Variable:             "#19177C",
         Name.Constant:             "#880000",
