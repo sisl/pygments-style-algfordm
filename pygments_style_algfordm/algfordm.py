@@ -26,7 +26,6 @@ class AlgForDMStyle(Style):
         Keyword:                   "bold #0072B2",
         Keyword.Pseudo:            "nobold",
         Keyword.Type:              "nobold #0072B2",
-        Keyword.Reserved:          "#FF0000",
         Keyword.Other:             "bold #73C6F2",
         Other:                     "bold #73C6F2",
 
