@@ -20,41 +20,32 @@ class AlgForDMStyle(Style):
 
     styles = {
         Whitespace:                "#bbbbbb",
-        Comment:                   "italic #0b5075",
-        Comment.Preproc:           "noitalic #BC7A00",
 
-        Keyword:                   "bold #0072B2",
-        Keyword.Pseudo:            "nobold",
-        Keyword.Type:              "nobold #0072B2",
-        Keyword.Other:             "bold #73C6F2",
-        Other:                     "bold #73C6F2",
+        Comment:                   "italic #4b6d80",
+        Comment.Multiline:         "italic #4b6d80",
 
+        Keyword:                   "bold #4b6d80",
+        Keyword.Constant:          "bold #FF00FF",
+
+        Literal:                   "bold #4b6d80",
+        Number:                    "#4b6d80", # 1, 2, etc.  (73C6F2)
 
         Operator:                  "#999999",
         Operator.Word:             "bold #AA22FF",
 
+        Name.Builtin:              "#0b415e", # Categorical(, etc.
+        Name.Function:             "#0b415e", # normalize(, etc.
+        Name.Namespace:            "bold #FF00FF",
+        Name.Variable:             "#00598A", # Most things are variables
+        Name.Decorator:            "#8770FE", # macros
 
-        Name.Builtin:              "#0072B2",
-        Name.Function:             "#56B4E9",
-        Name.Class:                "bold #56B4E9",
-        Name.Namespace:            "bold #56B4E9",
-        Name.Exception:            "bold #D2413A",
-        Name.Variable:             "#19177C",
-        Name.Constant:             "#880000",
-        Name.Label:                "#A0A000",
-        Name.Entity:               "bold #999999",
-        Name.Attribute:            "#7D9029",
-        Name.Tag:                  "bold #0072B2",
-        Name.Decorator:            "#FF48CF",
-
-        String:                    "#F5615C",
+        String:                    "#8770FE",
         String.Doc:                "italic",
         String.Interpol:           "bold #BB6688",
         String.Escape:             "bold #BB6622",
-        String.Regex:              "#F5615C",
+        String.Regex:              "#8770FE",
         String.Symbol:             "#F3453F",
         String.Other:              "#0072B2",
-        Number:                    "#666666",
 
         Generic.Heading:           "bold #000080",
         Generic.Subheading:        "bold #800080",
@@ -67,5 +58,6 @@ class AlgForDMStyle(Style):
         Generic.Output:            "#888",
         Generic.Traceback:         "#04D",
 
-        Error:                     "border:#FF0000"
+        Error:                     "border:#FF0000",
+        Other:                     "bold #FF00FF"
     }
