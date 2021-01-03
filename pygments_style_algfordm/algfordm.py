@@ -20,32 +20,32 @@ class AlgForDMStyle(Style):
 
     styles = {
         Whitespace:                "#bbbbbb",
-        Comment:                   "italic #4b6d80",
+        Comment:                   "italic #0b5075",
         Comment.Preproc:           "noitalic #BC7A00",
 
-        Keyword:                   "bold #4b6d80", # 0072B2
-        Keyword.Pseudo:            "nobold ",
-        Keyword.Type:              "nobold #FF00FF", # 0072B2
-        Keyword.Other:             "bold #FF00FF", # 73C6F2
-        Other:                     "bold #FF00FF", # 73C6F2
+        Keyword:                   "bold #0072B2",
+        Keyword.Pseudo:            "nobold",
+        Keyword.Type:              "nobold #0072B2",
+        Keyword.Other:             "bold #73C6F2",
+        Other:                     "bold #73C6F2",
 
 
         Operator:                  "#999999",
         Operator.Word:             "bold #AA22FF",
 
 
-        Name.Builtin:              "#0072B2", # Categorical(, etc.
-        Name.Function:             "#0072B2", # normalize(, etc.
-        Name.Class:                "bold #FF00FF",
-        Name.Namespace:            "bold #FF00FF",
-        Name.Exception:            "bold #FF00FF", # D2413A
-        Name.Variable:             "#1BA1EA", # Most things are variables
-        Name.Constant:             "#FF00FF", # 880000
-        Name.Label:                "#FF00FF", # A0A000
-        Name.Entity:               "bold #FF00FF", # 999999
-        Name.Attribute:            "#FF00FF", # 7D9029
-        Name.Tag:                  "bold #FF00FF", # 0072B2
-        Name.Decorator:            "#FF00FF", # FF48CF
+        Name.Builtin:              "#0072B2",
+        Name.Function:             "#56B4E9",
+        Name.Class:                "bold #56B4E9",
+        Name.Namespace:            "bold #56B4E9",
+        Name.Exception:            "bold #D2413A",
+        Name.Variable:             "#19177C",
+        Name.Constant:             "#880000",
+        Name.Label:                "#A0A000",
+        Name.Entity:               "bold #999999",
+        Name.Attribute:            "#7D9029",
+        Name.Tag:                  "bold #0072B2",
+        Name.Decorator:            "#FF48CF",
 
         String:                    "#F5615C",
         String.Doc:                "italic",
@@ -54,7 +54,7 @@ class AlgForDMStyle(Style):
         String.Regex:              "#F5615C",
         String.Symbol:             "#F3453F",
         String.Other:              "#0072B2",
-        Number:                    "#73C6F2", # 1, 2, etc.
+        Number:                    "#666666",
 
         Generic.Heading:           "bold #000080",
         Generic.Subheading:        "bold #800080",
