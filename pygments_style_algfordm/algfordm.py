@@ -30,6 +30,7 @@ class AlgForDMStyle(Style):
         Literal:                   "bold #4b6d80",
         Number:                    "#4b6d80", # 1, 2, etc.  (73C6F2)
 
+        Punctuation:               "#000000",
         Operator:                  "#999999",
         Operator.Word:             "bold #AA22FF",
 
