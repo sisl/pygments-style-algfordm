@@ -4,6 +4,12 @@ Pygments style used in the textbook [**Algorithms for Decision Making**](https:/
 
 ## Install
 
+You can use PIP:
+
+    $ pip install --upgrade git+https://github.com/sisl/pygments-style-algfordm#egg=pygments_style_algfordm
+
+Alternatively, you can run these commands:
+
     $ git clone https://github.com/sisl/pygments-style-algfordm
     $ cd pygments-style-algfordm
     $ (sudo) python setup.py install
