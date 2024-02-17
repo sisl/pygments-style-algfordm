@@ -38,7 +38,7 @@ class AlgForDMStyle(Style):
         Name.Function:             "#0b415e", # normalize(, etc.
         Name.Namespace:            "bold #FF00FF",
         Name.Variable:             "#00598A", # Most things are variables
-        Name.Decorator:            "#8770FE", # macros
+        Name.Decorator:            "bold #4b6d80", # macros
 
         String:                    "#8770FE",
         String.Doc:                "italic",
